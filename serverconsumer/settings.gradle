@@ -1,0 +1,3 @@
+rootProject.name = 'serverconsumer'
+
+includeFlat("serverapi")

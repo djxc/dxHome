@@ -1,13 +1,13 @@
-package com.djxc.study.serverapi;
+package com.djxc.study.rpc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServerapiApplication {
+public class RpcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServerapiApplication.class, args);
+		SpringApplication.run(RpcApplication.class, args);
 	}
 
 }
