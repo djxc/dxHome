@@ -1,16 +1,16 @@
 package com.djxc.study.common.DataStructure.test;
 
 
-import com.djxc.study.DataStructure.LinearTable.MyArray;
-import com.djxc.study.DataStructure.LinearTable.SqList.LinkList;
-import com.djxc.study.DataStructure.LinearTable.SqList.Node;
-import com.djxc.study.DataStructure.LinearTable.SqList.SqList;
-import com.djxc.study.DataStructure.Stack.LinkStack;
-import com.djxc.study.DataStructure.Stack.Stack;
-import com.djxc.study.DataStructure.Tree.BiNode;
-import com.djxc.study.DataStructure.Tree.BiTree;
-import com.djxc.study.DataStructure.search.MySearch;
-import com.djxc.study.DataStructure.sort.MySort;
+import com.djxc.study.common.DataStructure.LinearTable.MyArray;
+import com.djxc.study.common.DataStructure.LinearTable.SqList.LinkList;
+import com.djxc.study.common.DataStructure.LinearTable.SqList.Node;
+import com.djxc.study.common.DataStructure.LinearTable.SqList.SqList;
+import com.djxc.study.common.DataStructure.Stack.LinkStack;
+import com.djxc.study.common.DataStructure.Stack.Stack;
+import com.djxc.study.common.DataStructure.Tree.BiNode;
+import com.djxc.study.common.DataStructure.Tree.BiTree;
+import com.djxc.study.common.DataStructure.search.MySearch;
+import com.djxc.study.common.DataStructure.sort.MySort;
 
 import java.util.Arrays;
 
@@ -29,8 +29,8 @@ public class Test {
 	public static void testSearch() {
 		int[] array = {1, 2, 3, 4, 5, 6, 7, 9, 15, 20};
 		MySearch search = new MySearch();
-//		System.out.println(search.SeqSearch(array, 7));
-		System.out.println(search.BinSearch(array, 8));
+		System.out.println(search.SeqSearch(array, 7));
+//		System.out.println(search.BinSearch(array, 8));
 	}
 	
 	public static void testSort() {

@@ -20,6 +20,7 @@ public class DemoFeignFacedeImpl implements DemoFeignFacade {
 
     @Override
     public String callConsulProvider() {
+        System.out.println("this is producer!");
         return "djxc";
     }
 }
